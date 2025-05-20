@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Liste de courses</title>
+</head>
+<body>
+
+  <header>
+    <h1>Ma liste de courses</h1>
+  </header>
+
+  <main>
+    <section aria-labelledby="ajout-produit">
+      <h2 id="ajout-produit">Ajouter un produit</h2>
+      <form id="form-produit">
+        <label for="produit">Produit :</label>
+        <input type="text" id="produit" name="produit" required>
+        <button type="submit">Ajouter</button>
+      </form>
+    </section>
+
+    <section aria-labelledby="liste-course">
+      <h2 id="liste-course">Mes courses</h2>
+      <ul id="liste-produits">
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 - Nicolas</p>
+  </footer>
+<script scr= "./script.js"> </script>
+</body>
+</html>
