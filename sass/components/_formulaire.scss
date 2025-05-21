@@ -27,3 +27,35 @@ form {
       }
     }
   }
+
+  ul#liste-produits {
+    list-style: none;
+    margin-top: 2rem;
+  
+    li {
+      background-color: $secondary-color;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: $border-radius;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      button {
+        margin-left: 0.5rem;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        transition: $transition;
+  
+        ion-icon {
+          font-size: 1.2rem;
+          color: $main-color;
+  
+          &:hover {
+            color: $btn-hover;
+          }
+        }
+      }
+    }
+  }
