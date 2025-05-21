@@ -32,7 +32,7 @@ function addFormProduit(){
     li.appendChild(deleteButton);
 
     productList.appendChild(li);
-    form.value = "";
+    document.getElementById("produit").value = "";
 
 }
 
