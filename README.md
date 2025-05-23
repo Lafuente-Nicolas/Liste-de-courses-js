@@ -39,8 +39,8 @@
 
 ---
 
-## 👨 Auteur
+##  Auteur
 
-Projet réalisé par **Nicolas** dans le cadre de la formation **Développeur Intégrateur Web** chez **Simplon**.
+Projet réalisé par **Nicolas** dans le cadre de la formation **Développeur Front-End** chez **Simplon**.
 
 
