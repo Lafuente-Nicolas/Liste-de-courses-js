@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Liste de courses</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+
+  <header>
+    <h1>Ma liste de courses</h1>
+  </header>
+
+  <main>
+    <section aria-labelledby="ajout-produit">
+      <h2 id="ajout-produit">Ajouter un produit :</h2>
+      <form id="form-produit">
+        <label for="produit">Produit :</label>
+        <input type="text" id="produit" name="produit" required>
+        <button type="submit">Ajouter</button>
+      </form>
+    </section>
+
+    <section aria-labelledby="liste-course">
+      <h2 id="liste-course">Mes courses :</h2>
+      <ul id="liste-produits">
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 - Nicolas</p>
+  </footer>
+<script src= "./script.js"> </script>
+</body>
+</html>
